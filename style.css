@@ -1,0 +1,49 @@
+* {
+   padding: 0px;
+   border: 0px;
+   margin: 0px;
+}
+
+body{
+   background-color: rgb(243, 223, 209);
+   font-family: 'Poppins', sans-serif;
+}
+
+h1{
+   padding: 10px;
+   position: absolute;
+   top: 140px;
+   left: 390px;
+
+}
+
+.header{
+   padding: 50px 100px 50px;
+   border: 2px solid red;
+   height: 320px;
+
+}
+
+.description{
+   padding: 10px;
+   margin-right: 100px;
+   position: absolute;
+   top: 200px;
+   left: 390px;
+   font-weight: 300px;
+
+}
+
+.social{
+   position: absolute;
+   top: 355px;
+   left: 650px;
+}
+
+#photo{
+   float: left;
+   height: 320px;
+   border-radius: 2%;
+   padding: 10px;
+   background-color: rgb(243, 185, 156) ;
+}
