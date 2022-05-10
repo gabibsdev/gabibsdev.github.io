@@ -10,94 +10,90 @@ body{
 }
 
 h1{
-   padding: 10px;
-   position: absolute;
-   top: 70px;
-   left: 390px;
+   padding: 10px 10px 10px 50px;
 }
 
 h2{
-   padding: 10px;
+   padding-left: 50px;
    font-size: 18px;
 }
 
-.left-bar{
-
-   background-color: rgb(243, 185, 156) ;
-   width: 350px;
-   height:635px;
-   position: absolute;
-   z-index: 2;
+#photo{
+   border: 5px solid  rgb(224, 122, 116);
+   border-radius: 100%;
+   margin-top: 50px;
+   margin-left: 50px;
 }
 
-.left-bar-content{
-   position: absolute;
-   top: 320px;
-   left: 75px;
+.wrapper{
+   width: auto;
+}
+
+.left-bar{
+   background-color: rgb(243, 185, 156);
+   width: 25%;
+   height:auto;
+   display: inline-block;
+   vertical-align: middle;
+   z-index: 2;
+   
+}
+
+.left-bar-content{  
    text-align: center;
    font-size: 14px;
-   padding: 5px;
+   margin-top: 20px;
+   padding-bottom: 30px;
 }
 
 .contact{
-   text-align: center;
-   line-height: 25px;
-   padding-top: 10px;
+
+   padding: 10px 0px 5px;
 }
 
 .social{
-   padding: 5px 0px 30px;
+   padding: 5px 0px 20px
 }
 
 .learn{
    padding: 8px;
 }
 
-.description{
+.block-content{
+   width: 70%;
+   height:auto;
+   display: inline-block;
+   vertical-align: top;
+   padding: 50px 20px 0px 0px;
+   
+}
 
-   padding: 10px;
-   margin-right: 100px;
-   position: absolute;
-   top: 130px;
-   left: 390px;
-   font-weight: 300px;
+.description{
+   padding: 10px 10px 10px 50px;
+   text-align: justify;
+   line-height: 25px;
 }
 
 .habilities{
-   width: 250px;
-   position: absolute;
-   top: 340px;
-   left: 390px;
-   font-weight: 300px;
-   text-align: left;
-}
-
-.habilities ul, .studies ul{
-   padding-left: 30px;
+   width: 30%;
+   display: inline-block;
+   margin-top: 40px;
+   margin-bottom: 30px;
 }
 
 .studies{
-   width: 550px;
-   position: absolute;
-   top: 340px;
-   left: 700px;
-   font-weight: 300px;
-   text-align: left;
+   width: 68%;
+   display: inline-block;
+   margin-top: 30px;
+}
+
+.habilities ul, .studies ul{
+   padding-left: 70px;
+   margin-top: 5px;
+   text-align: justify;
 }
 
 .footer{
    background-color: rgb(241, 207, 152);
-   height: 50px;
-   position: relative;
-   top: 588px;
-   z-index: 1;
-}
-
-#photo{
-   border: 5px solid  rgb(224, 122, 116);
-   border-radius: 100%;
-   float: left;
-   position: absolute;
-   left: 60px;
-   top: 60px;
+   height: 55px;
 }
