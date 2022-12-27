@@ -1,0 +1,19 @@
+#header {
+  align-items: center;
+  border-bottom: 3px solid #602d74;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+#menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.link {
+  color: #db2e01;
+  text-decoration: none;
+}
